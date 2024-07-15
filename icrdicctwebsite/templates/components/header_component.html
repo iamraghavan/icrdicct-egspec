@@ -1,0 +1,91 @@
+<!-- header_component.html -->
+{% load static %}
+<div class="vs-menu-wrapper">
+    <div class="vs-menu-area text-center">
+        <button class="vs-menu-toggle"><i class="fal fa-times"></i></button>
+        <div class="mobile-logo">
+            <a href="{% url 'index' %}">
+                <img src="{% static '/img/icrdicct.svg' %}" alt="Educino">
+            </a>
+        </div>
+        <div class="vs-mobile-menu">
+            <ul>
+                <li><a href="#"><span>Committee</span></a></li>
+                <li><a href="#"><span>For Authors</span></a></li>
+                <li><a href="#"><span>Call for Papers</span></a></li>
+                <li><a href="#"><span>Payment</span></a></li>
+                <li><a href="#"><span>Registration</span></a></li>
+                <li><a href="#"><span>Conference Venue</span></a></li>
+                <li><a href="#"><span>Contact</span></a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="popup-search-box d-none d-lg-block">
+    <button class="searchClose"><i class="fal fa-times"></i></button>
+    <form action="#">
+        <input type="text" class="border-theme" placeholder="What are you looking for">
+        <button type="submit"><i class="fal fa-search"></i></button>
+    </form>
+</div>
+
+<header class="vs-header header-layout1">
+    <!-- <div class="header-top">
+        <div class="container">
+            <div class="row justify-content-between align-items-center gx-50">
+                <div class="col d-none d-xl-block">
+                    <div class="header-links">
+                        <ul>
+                            <li><i class="fas fa-phone-alt"></i>Phone: <a href="">+91 123 32453 234</a></li>
+                            <li><i class="fas fa-envelope"></i>Email: <a href="">example@example.com</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col col-xl-auto d-none d-md-block">
+                    <a class="user-login" href="">
+                        <i class="fas fa-user-circle"></i> Login & Register
+                    </a>
+                </div>
+                <div class="col-md-auto text-center">
+                    <div class="header-social">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <div class="sticky-wrapper">
+        <div class="sticky-active">
+            <div class="container position-relative z-index-common">
+                <div class="row align-items-center justify-content-between">
+                    <div class="col-auto">
+                        <div class="vs-logo">
+                            <a href="{% url 'index' %}">
+                                <img src="{% static '/img/icrdicct.svg' %}" alt="logo">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col text-end text-xl-center">
+                        <nav class="main-menu menu-style1 d-none d-lg-block">
+                            <ul>
+                                <li><a href="#"><span>Committee</span></a></li>
+                                <li><a href="#"><span>For Authors</span></a></li>
+                                <li><a href="#"><span>Call for Papers</span></a></li>
+                                <li><a href="#"><span>Payment</span></a></li>
+                                <li><a href="#"><span>Registration</span></a></li>
+                                <li><a href="#"><span>Conference Venue</span></a></li>
+                                <li><a href="#"><span>Contact</span></a></li>
+                            </ul>
+                        </nav>
+                        <button class="vs-menu-toggle d-inline-block d-lg-none"><i class="fal fa-bars"></i></button>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
