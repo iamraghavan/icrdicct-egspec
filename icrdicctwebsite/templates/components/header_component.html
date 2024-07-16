@@ -5,13 +5,13 @@
         <button class="vs-menu-toggle"><i class="fal fa-times"></i></button>
         <div class="mobile-logo">
             <a href="{% url 'index' %}">
-                <img src="{% static '/img/icrdicct.svg' %}" alt="Educino">
+                <img src="{% static '/img/icrdicct.svg' %}" alt="ICRDICCT 2025">
             </a>
         </div>
         <div class="vs-mobile-menu">
             <ul>
-                <li><a href="#"><span>Committee</span></a></li>
-                <li><a href="#"><span>For Authors</span></a></li>
+                <!-- <li><a href="#"><span>Committee</span></a></li>
+                <li><a href="#"><span>For Authors</span></a></li> -->
                 <li><a href="#"><span>Call for Papers</span></a></li>
                 <li><a href="#"><span>Payment</span></a></li>
                 <li><a href="#"><span>Registration</span></a></li>
@@ -31,34 +31,41 @@
 </div>
 
 <header class="vs-header header-layout1">
-    <!-- <div class="header-top">
+    <div class="header-top">
         <div class="container">
             <div class="row justify-content-between align-items-center gx-50">
                 <div class="col d-none d-xl-block">
                     <div class="header-links">
                         <ul>
-                            <li><i class="fas fa-phone-alt"></i>Phone: <a href="">+91 123 32453 234</a></li>
-                            <li><i class="fas fa-envelope"></i>Email: <a href="">example@example.com</a></li>
+                            <li><i class="fas fa-phone-alt"></i>Phone: <a href="">+91 90479 02685</a></li>
+                            <li><i class="fas fa-envelope"></i>Email: <a href="mailto:manikandan@egspec.org">manikandan@egspec.org</a></li>
                         </ul>
                     </div>
                 </div>
-                <div class="col col-xl-auto d-none d-md-block">
+                <!-- <div class="col col-xl-auto d-none d-md-block">
                     <a class="user-login" href="">
                         <i class="fas fa-user-circle"></i> Login & Register
                     </a>
-                </div>
+                </div> -->
                 <div class="col-md-auto text-center">
-                    <div class="header-social">
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <div class="header-social d-none d-md-block">
+                        <a href="https://www.facebook.com/sharer/sharer.php?u={{ request.build_absolute_uri }}" target="_blank">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://www.instagram.com/?url={{ request.build_absolute_uri }}" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/sharing/share-offsite/?url={{ request.build_absolute_uri }}" target="_blank">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
                     </div>
                 </div>
+                
             </div>
         </div>
-    </div> -->
+    </div>
 
-    <div class="sticky-wrapper">
+    <div class="sticky-wrapper mt-2 mt-lg-0">
         <div class="sticky-active">
             <div class="container position-relative z-index-common">
                 <div class="row align-items-center justify-content-between">
@@ -69,11 +76,11 @@
                             </a>
                         </div>
                     </div>
-                    <div class="col text-end text-xl-center">
+                    <div class="col text-end text-xl-center mt-3 mt-lg-0">
                         <nav class="main-menu menu-style1 d-none d-lg-block">
                             <ul>
-                                <li><a href="#"><span>Committee</span></a></li>
-                                <li><a href="#"><span>For Authors</span></a></li>
+                                <!-- <li><a href="#"><span>Committee</span></a></li>
+                                <li><a href="#"><span>For Authors</span></a></li> -->
                                 <li><a href="#"><span>Call for Papers</span></a></li>
                                 <li><a href="#"><span>Payment</span></a></li>
                                 <li><a href="#"><span>Registration</span></a></li>
@@ -83,9 +90,9 @@
                         </nav>
                         <button class="vs-menu-toggle d-inline-block d-lg-none"><i class="fal fa-bars"></i></button>
                     </div>
-                    
                 </div>
             </div>
         </div>
     </div>
+    
 </header>

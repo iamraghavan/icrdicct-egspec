@@ -1,0 +1,8 @@
+[
+  {
+    "image": "static/img/2025/background/hero_session_image.webp",
+    "title": "ICRDICCT 2025",
+    "description": "Join ICRDICCT 2025 on April 4th & 5th, 2025, hosted by E.G.S. Pillay Engineering College, India.",
+    "link": "{% url 'index' %}"
+  }
+]

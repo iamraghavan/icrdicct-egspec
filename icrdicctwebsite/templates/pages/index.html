@@ -1,11 +1,200 @@
 {% extends "base.html" %}
-
+{% load static %}
 {% block title %}{{ title }}{% endblock %}
 {% block content %}
 {% include 'components/header_component.html' %}
+{% include 'components/hero_layout_component.html' %}
+
+<section class="overflow-hidden space-top space-extra-bottom shape-mockup-wrap">
+    <div class="shape-mockup jump-img d-hd-none d-none d-xxxl-block" style="top: 2%; left: -15%;">
+        <div class="vs-border-circle"></div>
+    </div>
+    <div class="shape-mockup jump-reverse d-none d-xxxl-block" style="top: 38%; right: 7%;">
+        <div class="shape-dotted"></div>
+    </div>
+    <div class="container">
+        <div class="row justify-content-center text-center">
+            <div class="col-xl-9 wow fadeInUp wow-animated" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
+                <div class="title-area">
+                    
+                    <span class="sec-subtitle">ABOUT THE COLLEGE</span>
+                    <h2 class="sec-title h1">E. G. S. Pillay Engineering College</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row gx-70">
+            <div class="col-lg-5 col-xxl-6">
+                <div class="img-box3">
+                    <div class="img-1 mega-hover"><img class="w-100" src="{% static 'img/2025/engineering_college.webp' %}" alt="E. G. S. Pillay Engineering College"></div>
+                    <div class="shape-dotted jump"></div>
+                </div>
+            </div>
+            <div class="col-lg-7 col-xxl-6 align-self-center text-align-justify">
+                <p class="fs-md text-justify">E. G. S. Pillay Engineering College is one of the pioneering non-grant Autonomous Engineering Colleges in the State. Established in 1995 by the G. S. Pillay & Sons Educational & Charitable Trust, Nagapattinam, the college received sanction from the Government of Tamil Nadu and approval from the All India Council for Technical Education, New Delhi. Since 2002, it has been affiliated with Anna University, Chennai, awarding degrees as per Government Orders.</p>
+                <p class="fs-md text-justify">Accredited by NAAC with A++ grade and NBA (Tier-1) for B.Tech-IT, B.E-CSE & ECE, the college is renowned for its excellent infrastructure and facilities conducive to learning. Over the years, it has consistently delivered impressive performance, earning the trust of students and parents alike. The college is committed to empowering youth aspiring to excel as Engineers, Scientists, and Managers through expanded programs and enriching activities.</p>
+                <p class="fs-md">For more information, visit <a href="https://egspec.org" target="_blank">egspec.org</a>.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="overflow-hidden  space-extra-bottom shape-mockup-wrap">
+    <div class="shape-mockup jump-img d-hd-none d-none d-xxxl-block" style="top: 2%; left: -15%;">
+        <div class="vs-border-circle"></div>
+    </div>
+    <div class="shape-mockup jump-reverse d-none d-xxxl-block" style="top: 38%; right: 7%;">
+        <div class="shape-dotted"></div>
+    </div>
+    <div class="container">
+        <div class="row justify-content-center text-center">
+            <div class="col-xl-9 wow fadeInUp wow-animated" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
+                <div class="title-area">
+                    
+                    <!-- <span class="sec-subtitle">ABOUT THE COLLEGE</span> -->
+                    <h2 class="sec-title h1">Nagapattinam</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row gx-70">
+            <div class="col-lg-7 col-xxl-6 align-self-center text-align-justify">
+                <p class="fs-md text-justify"><strong>Nagapattinam:</strong> Situated in the coastal region of Tamil Nadu, Nagapattinam is a historically significant town known for its rich cultural heritage. The town boasts of a vibrant community with a blend of traditional values and modern outlook.</p>
+
+                <p class="fs-md text-justify"><strong>Climate:</strong> Nagapattinam experiences a tropical climate, characterized by hot summers and moderate winters. The coastal location influences the weather patterns, making it pleasant for most of the year.</p>
+                
+                <p class="fs-md text-justify"><strong>Language:</strong> Tamil is predominantly spoken in Nagapattinam, reflecting the cultural and linguistic heritage of the region. However, due to its historical significance and diverse population, you may also encounter people fluent in other languages.</p>
+                
+                <p class="fs-md text-justify"><strong>Transportation:</strong> Nagapattinam is well-connected by road and rail networks, facilitating easy access to nearby cities and towns. The town also has a bustling port, playing a significant role in trade and commerce.</p>
+            </div>
+            
+            <div class="col-lg-5 col-xxl-6">
+                <div class="img-box3">
+                    <div class="img-1 mega-hover"><img class="w-100" src="{% static 'img/2025/about-nagapattinam.webp' %}" alt="E. G. S. Pillay Engineering College"></div>
+                    <div class="shape-dotted jump"></div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
 
 
 
+<!-- About The Conference -->
+
+<section class="space-top space-extra-bottom">
+    <div class="container">
+       <div class="row justify-content-center align-items-center gx-80 mb-lg-4 pb-3">
+          <div class="col-lg-5 col-xl-auto order-lg-2 mb-4 mb-lg-0 pb-2 pb-lg-0">
+             <div class="img-box1 style3">
+                <div class="vs-circle">
+                   <div class="mega-hover"><img src="{% static 'img/2025/icrdicct-round-bg-logo.webp' %}" alt="banner"></div>
+                </div>
+             </div>
+          </div>
+          <div class="col-md-6 col-lg-4 col-xl order-lg-1 mb-4 mb-md-0">
+             <div class="team-details">
+                <h2 class="team-name h2">ICRDICCT'2025</h2>
+                <p class="team-degi">International Conference</p>
+                <span class="team-courses">April 4th & 5th, 2025</span>
+                <p class="team-experi">Organized by E.G.S. Pillay Engineering College, Nagapattinam, Tamil Nadu, India</p>
+                <div class="social-style2">
+                   <a href="#"><i class="fab fa-facebook-f"></i></a>
+                   <a href="#"><i class="fab fa-twitter"></i></a>
+                   <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+             </div>
+          </div>
+          <div class="col-md-6 col-lg-3 col-xl order-lg-3">
+             <h4 class="border-title2">About the Conference</h4>
+             <p>The International Conference on Research and Development in Information, Communication and Computing Technologies (ICRDICCT’2025) is scheduled to be held on April 4th & 5th, 2025. Organized by E.G.S. Pillay Engineering College, Nagapattinam, Tamil Nadu, India.</p>
+          </div>
+       </div>
+       <h2 class="border-title2 mb-4">Conference Objectives</h2>
+       <p>This conference aims to address the research challenges and development in the field of information, communication and computing technology. ICRDICCT-2025 provides a platform for researchers, industry professionals, academicians and students to showcase their innovative solutions, exchange ideas and discuss practical experiences in various aspects of Science, Engineering, Technology and Management.</p>
+       <p>The conference aims to explore theoretical and practical aspects of Engineering, discuss future research directions, and build networks for further research collaboration. Through paper presentations, exhibitions and interactions with top industries showcasing innovative products, ICRDICCT-2025 endeavors to promote high-quality research and facilitate knowledge exchange among participants. As a flagship event in the field, the conference catalyzes driving advancements and addressing the evolving needs of the information, communication and computing technology landscape.</p>
+       <p>The conference seeks to foster collaboration among stakeholders and facilitate the dissemination of research findings to address real-time problems and challenges. With a focus on addressing the complexities and rapid advancements in computing technology, ICRDICCT-2025 encourages the submission of novel research work from practicing engineers, technologists, scientists, research scholars, faculty members, and students.</p>
+    </div>
+ </section>
+ 
+
+ <!-- REGISTRATION FEE DETAILS -->
+
+ <div class="overflow-hidden space-extra-bottom">
+    <div class="container">
+       <div class="row">
+          <div class="col-lg-12">
+            <h2 class="team-name h2">REGISTRATION FEE DETAILS</h2>
+             <table class="table-style1">
+                <thead>
+                   <tr>
+                      <th>Category</th>
+                      <th>Early Bird Registration (15/03/2025) From India</th>
+                      <th>Registration Fee (04/03/2024) From India</th>
+                      <th>Early Bird Registration (15/03/2025) From other countries</th>
+                      <th>Registration Fee (04/03/2024) From other countries</th>
+                   </tr>
+                </thead>
+                <tbody>
+                   <tr>
+                      <td>Authors / Research Scholars</td>
+                      <td>INR 12,500</td>
+                      <td>INR 13,000</td>
+                      <td>USD 350</td>
+                      <td>USD 375</td>
+                   </tr>
+                   <tr>
+                      <td>Student Authors (UG / PG)</td>
+                      <td>INR 11,500</td>
+                      <td>INR 12,000</td>
+                      <td>USD 250</td>
+                      <td>USD 275</td>
+                   </tr>
+                </tbody>
+             </table>
+          </div>
+       </div>
+    </div>
+ </div>
+
+
+
+
+ 
+ <div class="overflow-hidden space-extra-bottom">
+    <div class="container">
+       <div class="row">
+          <div class="col-lg-12">
+            <h2 class="team-name h2">IMPORTANT DATES</h2>
+            <table class="table-style1">
+               <tbody>
+                  <tr>
+                     <td>Submission Open</td>
+                     <td>01st August, 2024</td>
+                  </tr>
+                  <tr>
+                     <td>Submission Deadline</td>
+                     <td>05th March, 2025</td>
+                  </tr>
+                  <tr>
+                     <td>Acceptance Notification</td>
+                     <td>Before 15th March, 2025</td>
+                  </tr>
+                  <tr>
+                     <td>Full-length paper submission and Author registration closes</td>
+                     <td>25th March, 2025</td>
+                  </tr>
+                  <tr>
+                     <td>Conference</td>
+                     <td>4th & 5th April, 2025</td>
+                  </tr>
+               </tbody>
+            </table>
+          </div>
+       </div>
+    </div>
+ </div>
+ {% include 'components/footer_component.html' %}
 {% endblock %}
 
 

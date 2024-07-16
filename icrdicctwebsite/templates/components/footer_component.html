@@ -1,0 +1,70 @@
+{% load static %}
+
+
+<footer class="footer-wrapper footer-layout1 shape-mockup-wrap">
+    <div class="shape-mockup jump d-none d-xxxl-block" style="bottom: 0%; left: -270px;">
+       <div class="vs-border-circle"></div>
+    </div>
+    <div class="widget-area">
+       <div class="container">
+          <div class="row justify-content-between">
+             <div class="col-md-6 col-xl-auto">
+                <div class="widget footer-widget">
+                   <div class="vs-widget-about">
+                      <div class="footer-logo"><a href="{% url 'index' %}"><img src="{% static '/img/logo-white.svg' %}" alt="logo"></a></div>
+                      <p class="footer-text text-justify">The International Conference on Research and Development in Information, Communication and Computing Technologies (ICRDICCT’2025) is scheduled to be held on April 4th & 5th, 2025. Organized by E.G.S. Pillay Engineering College, Nagapattinam, Tamil Nadu, India.</p>
+                      
+                   </div>
+                </div>
+             </div>
+             <div class="col-6 col-md-6 col-xl-auto">
+                <div class="widget nav_menu footer-widget">
+                   <h3 class="widget_title">Committee</h3>
+                   <div class="menu-all-pages-container footer-menu">
+                      <ul class="menu">
+                       
+                         <!-- <li><a href="#">Committee</a></li>
+                         <li><a href="#">For Authors</a></li> -->
+                         <li><a href="#">Call for Papers</a></li>
+                         <li><a href="#">Payment</a></li>
+                         <li><a href="#">Registration</a></li>
+                         <li><a href="#">Conference Venue</a></li>
+                         <li><a href="#">Contact</a></li>
+                      </ul>
+                   </div>
+                </div>
+             </div>
+             <div class="col-6 col-md-6 col-xl-auto">
+                <div class="widget nav_menu footer-widget">
+                   <h3 class="widget_title">Conference Venue</h3>
+                   <div class="menu-all-pages-container footer-menu">
+                      <p>Offline:</p>
+                      <p>EGS Pillay Engineering College(Autonomous)<br>Nagore (Post), Nagapattinam - 611002, Tamil Nadu, India</p>
+                   </div>
+                   <h3 class="widget_title">Contact Person</h3>
+                   <div class="menu-all-pages-container footer-menu">
+                      <p>Dr. S. MANIKANDAN, M.E, Ph.D</p>
+                      <p>Dean (Technical Affairs, Research and Branding)</p>
+                      <p class="footer-info"><i class="fal fa-phone-alt"></i><a class="text-inherit" href="tel:+919500707894">+91 90479 02685</a></p>
+                      <p class="footer-info"><i class="fal fa-envelope"></i><a class="text-inherit" href="mailto:manikandan@egspec.org">manikandan@egspec.org</a></p>
+                   </div>
+                </div>
+             </div>
+          </div>
+       </div>
+       
+    </div>
+    <div class="copyright-wrap">
+       <div class="container">
+          <div class="row justify-content-between align-items-center">
+             <div class="text-center col-lg-auto">
+                <p class="copyright-text">Copyright &copy; <i class="fal fa-copyright"></i> {% now "Y" %} <a href="https://egspec.org/">EGS Pillay Group of Institutions</a>. All Rights Reserved By</p>
+             </div>
+             <div class="col-auto d-none d-lg-block">
+                <p class="copyright-text"> Raghavan Jeeva </p>
+             </div>
+          </div>
+       </div>
+    </div>
+ </footer>
+ 

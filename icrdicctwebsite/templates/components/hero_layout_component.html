@@ -1,0 +1,22 @@
+<!-- hero_section.html -->
+
+<section class="hero-layout1">
+   <div class="vs-carousel" data-fade="true" data-arrows="true" data-dots="true">
+       {% for item in hero_items %}
+       <div>
+           <div class="hero-inner">
+               <div class="hero-bg background-image" style="background-image: url('{{ item.image }}');" data-bg-src="{{ item.image }}"></div>
+               <div class="container">
+                   <div class="hero-content">
+                       <h1 class="hero-title animated">{{ item.title | safe }}</h1>
+                       <p class="hero-text animated">{{ item.description }}</p>
+                       <div class="hero-btns animated">
+                           <a href="{{ item.link }}" class="vs-btn style5"><i class="far fa-angle-right"></i>Explore</a>
+                       </div>
+                   </div>
+               </div>
+           </div>
+       </div>
+       {% endfor %}
+   </div>
+</section>
